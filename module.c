@@ -17,3 +17,12 @@ int fibo(int n) {
         res = b;
         return res;
 }
+
+int fibo_recursion(int a, int b ,int n) {
+        if (n<2) {
+                return b;
+        }
+        else {
+                return fibo_recursion(b ,a+b, n-1);
+        }
+}
