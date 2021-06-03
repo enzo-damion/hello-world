@@ -7,4 +7,5 @@ int print_tableau(int t[], int n);
 int stock_pair(int t[], int taille);
 int mylen(char s[]);
 int sum_array(int t1[], int t2[], int tres[], int taille);
+int mylen_etoile(char *s);
 #endif
