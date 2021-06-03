@@ -70,7 +70,7 @@ int sum_array(int t1[], int t2[], int tres[], int taille)
 
 int mylen_etoile(char *s)
 {
-        int test = 1;
+        char test = '1';
         int compteur = 0;
         while (test != '\0')
         {

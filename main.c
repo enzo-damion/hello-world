@@ -15,7 +15,6 @@ int main()
         int tres[6];
         sum_array(t1, t2, tres, 6);
         print_tableau(tres, 6);
-        char chaine = "abcd";
-        char *s = &chaine;
+        char *s = "abcd";
         printf("len('abcd') = %d\n", mylen_etoile(s));
 }
