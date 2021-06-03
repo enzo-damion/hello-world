@@ -67,3 +67,15 @@ int sum_array(int t1[], int t2[], int tres[], int taille)
                 tres[i] = t1[i] + t2[i];
         }
 }
+
+int mylen_etoile(char *s)
+{
+        char test = '1';
+        int compteur = 0;
+        while (test != '\0')
+        {
+                compteur++;
+                test = *(s + compteur);
+        }
+        return compteur;
+}
