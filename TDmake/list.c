@@ -13,8 +13,8 @@ List *insert_list(Date *date, List *list)
 
 void print_list(List *list)
 {
-    printf("%d  ", list->date);
-    if (list != NULL)
+    print_date(list->date);
+    if (list->list != NULL)
     {
         print_list(list->list);
     }

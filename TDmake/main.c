@@ -16,10 +16,9 @@ int main()
     // printf("test = %d\n", test);
     Date *date_adrien_copy = duplicate_date(date_adrien);
     Person *adrien_copy = duplicate_person(adrien);
-    print_person(adrien_copy);
-    List *bds = (List *)malloc(sizeof(List));
-    bds->date = date_adrien;
-    bds->list = NULL;
-    List *bds = insert_list(date_enzo, date_enzo);
-    print_list(bds);
+    // print_person(adrien_copy);
+    List *empty = NULL;
+    List *bds = insert_list(date_adrien, empty);
+    List *bde = insert_list(date_enzo, bds);
+    print_list(bde);
 }

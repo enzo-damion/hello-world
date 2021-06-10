@@ -5,7 +5,7 @@
 typedef struct _List
 {
     Date *date;
-    List *list;
+    struct _List *list;
 } List;
 
 List *insert_list(Date *date, List *list);
